@@ -23,7 +23,7 @@ export function Visitanos(){
         console.error("Error al parsear sucursal:", error);
         sucursales = [];
     }
-  sucursales= jsonPuntosVentas
+ // sucursales= jsonPuntosVentas
   useEffect(() => {
     window.scrollTo({
       top: 0,
