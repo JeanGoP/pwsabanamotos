@@ -1,0 +1,96 @@
+.contenido__seccionMotoDetallada{
+    margin-top: 40px;
+    
+}
+.titulo__seccionMotoDetallada{
+    /* color: white; */
+    font-size: 25px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 300;
+}
+.subtitulo_seccionModoDetallada{
+    /* color: white; */
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Bebas Neue", Sans-serif;
+}
+.descripcion__seccionMotoDetallada{
+    /* color: rgb(164, 162, 162); */
+    font-size: 15px;
+    text-align: justify;
+}
+
+.descripcion__seccionMotoDetallada{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card__SeccionMotoDetallada { 
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: flex;               
+    justify-content: center;    
+    align-items: center;        
+}
+@media (max-width: 768px) {
+    .card__SeccionMotoDetallada { 
+        border: none;
+        width: 100%;
+        height: 100%;
+        display: flex;               
+        justify-content: center;    
+        align-items: center;    
+        position: relative;
+        left: 13px;    
+    }
+  }
+  
+.imagen__seccionMotoDetallada {
+    width: 100%;
+    height: 100%;
+           
+    object-fit: contain;        
+    object-position: center;     
+    border-radius: 15px;
+}
+
+.footer__descripcion__seccionMotoDetallada{
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__label__seccionMotoDetallada{
+     color: white; 
+     font-size: clamp(0.6rem, 5vw, 1.4rem);
+    font-weight: bold;
+  
+}
+.footer__p__seccionMotoDetallada{
+    font-size: clamp(1rem, 8vw, 2.5rem);
+    font-weight: bold;
+    color: white; 
+}
+.footer__div__seccionDetallada{
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 15px;
+   
+}
+.footer__div__seccionDetallada-{
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+   
+}
+
+.contenidoTituloMoto{
+    justify-content: center;    
+    align-items: center;   
+    text-align: center;
+}
+.pContenidoTituloM{
+    font-family: "Monrope", Sans-serif;
+    font-size:  clamp(2.6rem, 5vw, 3.4rem);
+    color: #FFFFFF;
+    font-weight: 600;
+}

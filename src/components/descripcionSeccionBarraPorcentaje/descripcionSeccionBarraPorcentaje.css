@@ -1,0 +1,19 @@
+.titulo__descripcionSeccionBarraPorcentaje{
+    font-size: 23px;
+    /* color: white; */
+    font-weight: 500;
+    font-family: "Bebas Neue", Sans-serif;
+
+}
+.contenido__descripcionSeccionBarraPorcentaje{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 18px;
+}
+.subtitulo__descripcionSeccionBarraPorcentaje{
+    padding-top: 10px;
+    font-size: 18px;
+    color:  #7a7877; 
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.contenidoDetalleBlog{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+@media (max-width: 768px) {
+    .contenidoDetalleBlog{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
