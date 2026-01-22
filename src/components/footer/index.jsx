@@ -101,6 +101,11 @@ function Footer(){
                     </div>
                 </div>
            </div>
+           <div className="row" style={{alignItems:'center', textAlign:'center'}}> 
+            <div className="col-12" style={{paddingTop:'30px'}}> 
+              <p style={{fontSize:'15px'}}>Copyright © 2023. SABANAMOTOS DE COLOMBIA S.A.S, All rights reserved | Desing By @HakuCreativo SAS</p>
+            </div>
+           </div>
            </div>
         </footer>
     )
