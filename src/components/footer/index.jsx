@@ -97,7 +97,10 @@ function Footer(){
                       <p className="clickable"  onClick={()=>handlePagina('/tratamientoDatos')}> Tratamiento de datos</p>
                     </div>
                     <div className="row">
-                      <a className="clickable icono_footer" href="https://docs.google.com/forms/d/e/1FAIpQLSftlDgsSffN3TV2fwDkugxy_JDzegCGVwlQTR2WrUvoXDxv2Q/viewform?usp=pp_url" target="_blank" >PQRSF</a> 
+                      <a className="clickable icono_footer" style={{textDecoration:'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLSftlDgsSffN3TV2fwDkugxy_JDzegCGVwlQTR2WrUvoXDxv2Q/viewform?usp=pp_url" target="_blank" >PQRSF</a> 
+                    </div>
+                    <div className="row" style={{paddingTop:'13px'}}>
+                    <a className="clickable" href="https://lineaetica.onrender.com/?empresa=Sabanamotos" target="_blank" style={{textDecoration:'none', color:'white'}} >Línea Ética</a>
                     </div>
                 </div>
            </div>

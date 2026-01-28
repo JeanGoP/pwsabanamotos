@@ -21,7 +21,7 @@ export function Blog() {
                 <div className="row ">
                     <div className="col-md-12 coll-sm-12 container__row__Posventa"
                         style={{
-                            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${configuracionData?.rutaPortada}')`
+                            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${configuracionData?.rutaPortadaBlog}')`
                         }}
                     >
                         <label className="label__row__Posventa">  BLOG </label>
