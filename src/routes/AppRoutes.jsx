@@ -47,8 +47,8 @@ function AppRoutesWrapper() {
     <>
   {!ocultarLayout && <Navbar onAbrilModal={handleMostrarModal} />}
       <ModalContacto modalReferencia={modalReferencia} />
-      <ModalWhatsapp isOpen={modalOpen} onClose={handleCerrarModalWhatsapp} />
-      {!ocultarLayout &&  <BotonWhatsapp onClick={handleMostrarModalWhatsapp} />}   
+      {/* <ModalWhatsapp isOpen={modalOpen} onClose={handleCerrarModalWhatsapp} /> */}
+      {!ocultarLayout }   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cotizacion" element={<Cotizador />} />

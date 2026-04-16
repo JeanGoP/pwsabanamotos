@@ -150,9 +150,9 @@ export const jsonLinkMarcas = [
   {
     url: '/images/pulsar.png',
   },
-  {
-    url: '/images/platino.png',
-  },
+  // {
+  //   url: '/images/platino.png',
+  // },
   {
     url: '/images/discover.png',
   },
@@ -223,28 +223,38 @@ export const jsonCardMarcasMotos = [
   {
     titulo: 'DISCOVER',
     descripcion: 'descubre el mundo sin límites. 🌍 Más potencia, más aventura, más kilómetros por recorrer.',
-    imagen: '/images/Discover.jpg',
+    imagen: '/images/SEGMENTODISCOVER.png',
   },
   {
     titulo: 'BOXER',
     descripcion: 'hecha para rendir, diseñada para durar. 💪 Conquista más camino, más lejos, más fácil.',
-    imagen: '/images/Boxer.jpg',
+    imagen: '/images/SEGMENTOBOXER.png',
   },
-  {
-    titulo: 'PLATINO',
-    descripcion: 'eficiencia sin límites. ⚡ Lleva tu economía más lejos, con cada kilómetro recorrido.',
-    imagen: '/images/platino.jpg',
-  },
+  // {
+  //   titulo: 'PLATINO',
+  //   descripcion: 'eficiencia sin límites. ⚡ Lleva tu economía más lejos, con cada kilómetro recorrido.',
+  //   imagen: '/images/platino.jpg',
+  // },
   {
     titulo: 'DOMINAR',
     descripcion: '¡Con Dominar, la carretera es tuya! 🛣️ Siente el poder y conquista cada kilómetro.',
-    imagen: '/images/dominarmarca.jpg',
+    imagen: '/images/SEGMENTODOMINAR.png',
   },
   {
     titulo: 'PULSAR',
     descripcion: '¡Siente el poder, domina el camino! 🏍️ Con Pulsar, la adrenalina es tu mejor copiloto.',
-    imagen: '/images/pulsar.jpg',
+    imagen: '/images/SEGMENTOPULSAR.png',
   },
+  {
+    titulo: 'TORITO',
+    descripcion: '',
+    imagen: '/images/SEGMENTOTORITO.png',
+  },
+  {
+    titulo: 'MAXIMA',
+    descripcion: '',
+    imagen: '/images/SEGMENTOMAXIMA.png',
+  }
 ];
 
 export const jsonImagenCarousel = [

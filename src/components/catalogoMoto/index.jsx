@@ -204,7 +204,9 @@ const CatalogoMoto = ({ ColorTitulo, colorPagina }) => {
     <div className="container mt-4">
       <div className="row row__CatalogoMoto" style={{ backgroundColor: colorPagina }}>
         <p className="Titlulo__CatalogoMoto">MOTOCICLETAS</p>
-        {segmentos.map((item) => {
+        {segmentos
+        .filter(item => item.segmento_nombre.toUpperCase() !== 'PLATINO')
+        .map((item) => {
           const cardInfo = jsonCardMarcasMotos.find((moto) => moto.titulo.toUpperCase() === item.segmento_nombre.toUpperCase());
           return (
             <CardMarcaMoto
